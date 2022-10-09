@@ -1,0 +1,12 @@
+[package]
+name = 'yetaheui'
+version = '0.1.0'
+edition = '2021'
+
+[dependencies]
+nohash-hasher = "0.2.0"
+# unicode-normalization = "0.1.22"
+unicode-segmentation = '1.10.0'
+
+[target.x86_64-unknown-linux-gnu.dependencies]
+utf8-read = '0.4.0'

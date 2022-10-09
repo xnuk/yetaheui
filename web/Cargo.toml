@@ -1,0 +1,15 @@
+[package]
+name = 'web'
+version = '0.1.0'
+edition = '2021'
+
+[dependencies]
+yew = '0.19.3'
+yetaheui = { path = '../yetaheui/' }
+web-sys = '0.3.60'
+wasm-bindgen = "0.2.83"
+gloo-timers = "0.2.4"
+
+[[bin]]
+name = 'web'
+path = 'main.rs'
